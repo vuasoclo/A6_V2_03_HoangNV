@@ -1,0 +1,5 @@
+{
+  "enabled": true,
+  "model": "siglip",
+  "scope": "single image through SigLIP2; image plus instruction through configured SEARLE; coarse category and VND filters"
+}

@@ -1,0 +1,43 @@
+{
+  "repo": "miccunifi/SEARLE",
+  "revision": "a9c314ba4b6e6e14be5a9c3fdf6b66e6a0c23e37",
+  "checkpoint_url": "https://github.com/miccunifi/SEARLE/releases/download/weights/SEARLE_ViT-B32.pt",
+  "backbone": "openai/clip-vit-base-patch32",
+  "license": "CC-BY-NC-4.0",
+  "files": {
+    "SEARLE_ViT-B32.pt": {
+      "sha256": "55f4414bbfdad5cef2f6dc02452e44f2bdb87ca87ebeb94dfec9f97f188b424c",
+      "bytes": 25186327
+    },
+    "upstream\\hubconf.py": {
+      "sha256": "c9225bc5aee4358c40667f401168a8a57b97493ead61d654053a351819581bed",
+      "bytes": 957
+    },
+    "upstream\\LICENSE": {
+      "sha256": "ac9dc9b69ba6690a81fb62919bd05f7baedebace01b59a12cf65ebd0e1183ae6",
+      "bytes": 19342
+    },
+    "upstream\\README.md": {
+      "sha256": "9da9fbb384a9861ab8e2dfd3a48791f2d848ab0eb34104d9fac1bbb453c8bb51",
+      "bytes": 26062
+    },
+    "upstream\\src\\encode_with_pseudo_tokens.py": {
+      "sha256": "ad3c26bfd2ea7347fef7a3056bdf293711cca3800f2862af0df8fa6cc512aa53",
+      "bytes": 2143
+    },
+    "upstream\\src\\phi.py": {
+      "sha256": "62fcf1f0b621f49c58eb93d70b8bcfab4f826cc1f6107b59d87362e9c26e8e3c",
+      "bytes": 663
+    },
+    "upstream\\src\\validate.py": {
+      "sha256": "83eef3dd2448e82ba9ef59708df8dfa3a88a8f17ec1d4c0f152676dc5dde28fc",
+      "bytes": 24687
+    }
+  },
+  "tokenizer_files": {
+    "vocab.json": "5047b556ce86ccaf6aa22b3ffccfc52d391ea4accdab9c2f2407da5b742d4363",
+    "merges.txt": "f526393189112391ce6f9795d4695f704121ce452c3aad1f5335cc41337eba85",
+    "tokenizer_config.json": "34b7336e4bee12e0a9730eaf5189f582ef3c3eea5027f65730e5717256755aad",
+    "special_tokens_map.json": "f8c0d6c39aee3f8431078ef6646567b0aba7f2246e9c54b8b99d55c22b707cbf"
+  }
+}

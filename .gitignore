@@ -1,0 +1,40 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+data/test_tmp/
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.log
+
+# Keep ten source footwear photos for review; retain the full catalog locally.
+data/images/*
+!data/images/B0000ASD62.jpg
+!data/images/B0002UUGAC.jpg
+!data/images/B0007XTKKG.webp
+!data/images/B000B2KMSC.webp
+!data/images/B01N1MUGAD.jpg
+!data/images/B06Y5M57VD.jpg
+!data/images/B07D7TWWG6.jpg
+!data/images/B07FFRLDX9.jpg
+!data/images/B07G8WM97W.jpg
+!data/images/B07N7VT8CN.jpg
+
+# Pretrained weights are large. Keep provenance and upstream license documents.
+models/**/*
+!models/**/
+!models/**/manifest.json
+!models/**/LICENSE
+!models/**/LICENSE.*
+!models/**/README.md
+
+# OS artifacts
+Thumbs.db
+.DS_Store

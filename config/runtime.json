@@ -1,0 +1,18 @@
+{
+  "dataset": "esci",
+  "model": "e5",
+  "index_name": "e5-esci-en-basic",
+  "vi_index_name": "e5-esci-vi-vertex",
+  "bilingual_search": true,
+  "document_policy": "esci-dual-en-vi",
+  "document_language": "en+vi",
+  "mode": "semantic",
+  "threshold": 0,
+  "dense_weight": 0.5,
+  "rrf_k": 60,
+  "threads": 4,
+  "hide_no_source_images": true,
+  "price_query_policy": true,
+  "default_mode_reason": "Direct multilingual query embedding; no query translation API",
+  "trial_scope": "Same ESCI candidates with offline Vietnamese translations; two passage vectors per product"
+}

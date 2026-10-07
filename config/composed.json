@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "model": "SEARLE-CLIP-ViT-B32",
+  "goal": "reference image plus modification instruction",
+  "vietnamese_scope": "explicit color-change templates only; other modifications in English",
+  "color_constraint": "source primary color, Python hard filter; not a learned recognition guarantee"
+}

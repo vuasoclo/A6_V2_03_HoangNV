@@ -1,0 +1,55 @@
+{
+  "source": {
+    "repository": "https://github.com/amazon-science/esci-data",
+    "revision": "7916cdf6ab75a462e77f20ab40428a10923998d5",
+    "files": {
+      "examples": {
+        "filename": "shopping_queries_dataset_examples.parquet",
+        "bytes": 51286808,
+        "sha256": "4a735b693b4a424a6fc67f5be6e4c811495c488bbf66d02a602d308b2744263a"
+      },
+      "products": {
+        "filename": "shopping_queries_dataset_products.parquet",
+        "bytes": 1108857465,
+        "sha256": "25124442d064d64b26f74082d6fa09438d679efc0c183cf28d19064a2b65a265"
+      }
+    }
+  },
+  "locale": "us",
+  "version": "small_version/task1",
+  "selection": "Footwear query regex, accessory exclusions; stable hash seed 606, independently per original split. No rank-based selection; not category ground truth.",
+  "footwear_regex": "\\b(?:shoes?|sneakers?|boots?|loafers?|slippers?|sandals?|heels?|cleats?|moccasins?|espadrilles?)\\b",
+  "accessory_regex": "\\b(?:shoelaces?|laces?|insoles?|inserts?|racks?|organizers?|polish|cleaner|repair|covers?|horns?|trees|bags?|boxes|socks?|charms?|chains|straps|dryers?|stretchers?|protectors?|paint|chairs?|games?|horses?|dogs?|cats?|pets?)\\b",
+  "available_queries": {
+    "train": 501,
+    "test": 219
+  },
+  "pre_inference_scope_exclusions": {
+    "if the shoe fits": "Book/movie title, not footwear",
+    "hidden shoes": "Adhesive barefoot sole pads, outside footwear scope",
+    "black suede shoe strap": "Ambiguous detachable accessory vs strapped footwear"
+  },
+  "selected_queries": {
+    "train": 50,
+    "test": 50
+  },
+  "products": 1842,
+  "judgments": 1863,
+  "labels": {
+    "S": 551,
+    "E": 1017,
+    "I": 283,
+    "C": 12
+  },
+  "catalog_hash": "2b8f1af00b75b1b8b2d6321a131eb698136c6a546aa18af95e6d91632ffc7b38",
+  "queries_hash": "162ed40fc050e81c619bbbdd60765fd358fdb9c965ddda7f8ba0424013941d11",
+  "missing": {
+    "product_title": 0,
+    "product_description": 1198,
+    "product_bullet_point": 165,
+    "product_brand": 1,
+    "product_color": 76
+  },
+  "preprocessing": "HTML tag removal/entity decoding/whitespace only; title, brand, color, bullets, description. Token fitting recorded at index time. No invented attributes; no images or prices in original ESCI.",
+  "scope": "Union of all candidates for selected footwear queries, including non-footwear distractors, sandals and children. Not an adult-only footwear catalog."
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fashion",
+    "parent_id": null,
+    "name_en": "Fashion",
+    "name_vi": "Thời trang"
+  },
+  {
+    "id": "shoes",
+    "parent_id": "fashion",
+    "name_en": "Shoes",
+    "name_vi": "Giày"
+  },
+  {
+    "id": "shoes.running",
+    "parent_id": "shoes",
+    "name_en": "Running shoes",
+    "name_vi": "Giày chạy bộ"
+  },
+  {
+    "id": "shoes.walking",
+    "parent_id": "shoes",
+    "name_en": "Walking shoes",
+    "name_vi": "Giày đi bộ"
+  },
+  {
+    "id": "shoes.hiking",
+    "parent_id": "shoes",
+    "name_en": "Hiking footwear",
+    "name_vi": "Giày đi đường mòn"
+  },
+  {
+    "id": "shoes.boots",
+    "parent_id": "shoes",
+    "name_en": "Boots",
+    "name_vi": "Boots"
+  },
+  {
+    "id": "shoes.sneakers",
+    "parent_id": "shoes",
+    "name_en": "Sneakers",
+    "name_vi": "Sneaker"
+  },
+  {
+    "id": "shoes.formal",
+    "parent_id": "shoes",
+    "name_en": "Oxfords, loafers and pumps",
+    "name_vi": "Giày Oxford, loafer và pump"
+  },
+  {
+    "id": "shoes.flats",
+    "parent_id": "shoes",
+    "name_en": "Flats",
+    "name_vi": "Giày bệt"
+  },
+  {
+    "id": "shoes.training",
+    "parent_id": "shoes",
+    "name_en": "Training shoes",
+    "name_vi": "Giày tập luyện"
+  }
+]

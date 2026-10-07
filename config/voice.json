@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "compute_type": "float32",
+  "threads": 4,
+  "language": "vi",
+  "max_seconds": 30
+}

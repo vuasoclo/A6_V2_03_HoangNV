@@ -1,0 +1,11 @@
+/* Secondary retrieval rank: quieter than brand, name and selling price. */
+.product-rank{margin-top:7px;font-size:11px;font-weight:400;letter-spacing:.01em;color:#76736c}
+.discover-link{display:inline-flex;align-items:center;justify-content:space-between;gap:28px;margin-top:20px;padding:15px 19px;border:1px solid #dedbd3;border-radius:4px;background:#f4f2ec;color:#36342f;font-size:14px;font-weight:600;transition:background .15s,border-color .15s}
+.discover-link:hover{background:#ece9df;border-color:#bfb9ad}.discover-link span{font-size:19px;font-weight:400}
+.detail-sections{display:block;max-width:960px}.detail-lead{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.product-card h3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;min-height:3.9em}
+.product-meta{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.brand-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.load-more{display:block;margin:32px auto}.image-placeholder{display:grid;place-items:center;width:100%;height:100%;color:var(--muted);font-size:13px}
+.product-detail h1{font-size:clamp(25px,2.7vw,39px);line-height:1.25}.spec-summary dd{overflow-wrap:anywhere}.detail-sections p,.detail-sections li{overflow-wrap:anywhere}
+[aria-busy="true"]{opacity:.55;pointer-events:none}button:disabled{cursor:default}
+@media(max-width:700px){.discover-link{display:flex;gap:12px;font-size:13px}.product-card h3{font-size:14px;min-height:3.9em}.product-rank{font-size:11px}}

@@ -1,0 +1,24 @@
+{
+  "alias": "clip",
+  "repo": "openai/clip-vit-base-patch32",
+  "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "weights": "pytorch_model.bin",
+  "files": {
+    "config.json": {
+      "sha256": "b575ef3c36f2a057fa19e221650105052d61cc9c1a972ec15019c6261ec98770",
+      "bytes": 4186
+    },
+    "preprocessor_config.json": {
+      "sha256": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+      "bytes": 316
+    },
+    "pytorch_model.bin": {
+      "sha256": "a63082132ba4f97a80bea76823f544493bffa8082296d62d71581a4feff1576f",
+      "bytes": 605247071
+    },
+    "README.md": {
+      "sha256": "8f0e8c678e0afe5f384f3bf8a6694c1cb53c41e52f86277967b6c5354cb0f9f4",
+      "bytes": 7942
+    }
+  }
+}

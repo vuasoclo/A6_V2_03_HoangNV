@@ -1,0 +1,14 @@
+{
+  "source": "VIVOS, AILAB VNU-HCM; public mirror SMEW-TECH/asr-vi",
+  "license": "CC BY-NC-SA 4.0",
+  "revision": "bff525761ff9c97f0f88fd585b79b26b1c1d6c69",
+  "sample": {
+    "id": "VIVOSDEV01_R002",
+    "speaker": "VIVOSDEV01",
+    "reference": "TIẾNG CỌC CẠCH KHỰNG LẠI CỦA NHỮNG KHỚP SẮT",
+    "path": "data/voice/vivos/VIVOSDEV01_R002.wav",
+    "source_url": "https://huggingface.co/datasets/SMEW-TECH/asr-vi/resolve/bff525761ff9c97f0f88fd585b79b26b1c1d6c69/test/waves/VIVOSDEV01/VIVOSDEV01_R002.wav",
+    "duration_seconds": 4.0625,
+    "sha256": "3346943de82410a7852b4dd817ef194d8583861f85c15ec99bbab21af21bf44c"
+  }
+}

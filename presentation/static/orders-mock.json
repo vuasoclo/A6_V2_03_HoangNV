@@ -1,0 +1,47 @@
+[
+  {
+    "id": "O001",
+    "customer_id": "C001",
+    "date": "07/10/2026",
+    "status": "processing",
+    "items": [
+      {
+        "source_id": "B0007XTKKG",
+        "name": "Dép da xỏ chân nam Merrell SANDSPUR Slide, Đen, 11.0 M US",
+        "color": "Đen",
+        "price": 600000,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "O002",
+    "customer_id": "C001",
+    "date": "05/10/2026",
+    "status": "shipping",
+    "items": [
+      {
+        "source_id": "B07G8WM97W",
+        "name": "Giày đi nước cho nữ và nam Giày chân trần mùa hè Tất bơi mau khô đi biển Bơi lội Tập yoga Thể dục (Cam/Xanh dương, 42/43)",
+        "color": "Cam/Xanh dương",
+        "price": 700000,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "O003",
+    "customer_id": "C001",
+    "date": "28/09/2026",
+    "status": "delivered",
+    "items": [
+      {
+        "source_id": "B07FFRLDX9",
+        "name": "Giày đi nước chân trần mau khô cho nữ, nam và trẻ em Tất đi biển bơi lội lướt sóng tập yoga (Đen/Chấm bi, M)",
+        "color": "Đen/Chấm bi",
+        "price": 710000,
+        "quantity": 1
+      }
+    ]
+  }
+]

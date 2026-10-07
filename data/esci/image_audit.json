@@ -1,0 +1,10 @@
+{
+  "verified_photos": 1395,
+  "expected": 1842,
+  "exact_asin_mapping": true,
+  "decoded_and_hash_checked": true,
+  "presentation_manifest_only": true,
+  "benchmark_catalog_and_query_hashes_unchanged": true,
+  "runtime_default": "semantic",
+  "visual_variant_certification": false
+}
